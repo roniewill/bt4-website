@@ -1,0 +1,24 @@
+{
+  "name": "bt4-website",
+  "version": "1.0.0",
+  "description": "Web site make in bootstrap 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roniewill/bt4-website.git"
+  },
+  "author": "Ramon William",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roniewill/bt4-website/issues"
+  },
+  "homepage": "https://github.com/roniewill/bt4-website#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}
