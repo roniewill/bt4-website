@@ -1,6 +1,8 @@
 # Development with:
-### Bootstrap 4 - [About this](http://getbootstrap.com/) 
+### Bootstrap 4
+[Link here...](http://getbootstrap.com/) 
  
-### Sass - [About this](https://sass-lang.com/)
+### Sass
+[Link here...](https://sass-lang.com/)
  
 **Only** to study this framework
