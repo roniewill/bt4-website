@@ -11,6 +11,9 @@
     <!-- CSS Style -->
     <link rel="stylesheet" href="public/css/style.css">
 
+    <!-- FONT-AWESOME -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+
     <title>Web site built with Bootstrap 4</title>
   </head>
   <body>
@@ -124,25 +127,25 @@
 
       <div class="row">
         <div class="col-12 text-center my-5">
-          <h1 class="display-3">Welcome</h1>
+          <h1 class="display-3"><i class="fa fa-cogs"></i> Welcome</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, incidunt eaque adipisci corporis amet odit, tempore, placeat debitis fugit ipsa exercitationem. Incidunt, mollitia cumque soluta voluptate ipsa reiciendis ipsum vel?</p>
         </div>
       </div>
 
       <div class="row">
 
-        <div class="col-3">
+        <div class="col-sm-6 col-md-4 mb-3">
           <nav id="navbarVertical" class="navbar navbar-light bg-light">
             <nav class="nav nav-pills flex-column">
-              <a href="#first-item" class="nav-link">First item</a>
-              <a href="#second-item" class="nav-link">Second item</a>
-              <a href="#third-item" class="nav-link">Third item</a>
-              <a href="#fourth-item" class="nav-link">Fourth item</a>
+              <a href="#first-item" class="nav-link btn-block">First item</a>
+              <a href="#second-item" class="nav-link btn-block">Second item</a>
+              <a href="#third-item" class="nav-link btn-block">Third item</a>
+              <a href="#fourth-item" class="nav-link btn-block">Fourth item</a>
             </nav>
           </nav>
         </div>
 
-        <div class="col-9 mb-5">
+        <div class="col-sm-6 col-md-8 mb-5">
           
           <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspy-content">
 
@@ -164,9 +167,9 @@
 
       </div>
 
-      <div class="row mb-5">
+      <div class="row justify-content-sm-center">
         
-        <div class="col-sm-4">
+        <div class="col-sm-6 col-md-4 mb-3">
           
           <div class="card">
             
@@ -184,7 +187,7 @@
 
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-6 col-md-4 mb-3">
           
           <div class="card">
             
@@ -204,7 +207,7 @@
 
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-6 col-md-4 mb-3">
           
           <div class="card">
             
@@ -225,30 +228,316 @@
         </div>
 
       </div>
-      
-      <!-- BEGIN - CARD MODAL -->
-      <div class="modal fade" id="cardModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">Called this modal</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p>Modal body text goes here. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa voluptas expedita necessitatibus, voluptatem asperiores deserunt repellendus recusandae natus itaque sapiente, commodi pariatur. Soluta ex, fugit commodi provident veritatis rerum culpa?</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-primary">Save changes</button>
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div><!-- END - CARD MODAL -->
 
     </div>
     <!-- END - CONTENT -->
+
+    <!-- BEGIN - JUMBOTRON CONTENT -->
+    <div class="jumbotron jumbotron-fluid">
+      
+      <div class="container">
+        
+        <div class="row">
+          
+          <div class="col-12 text-center">
+            
+            <h1 class="display-4"><i class="fa fa-video-camera"></i> Video content</h1>
+            <p class="lead">text for jumbotron content paragraphy, text for jumbotron content paragraphy, text for jumbotron content paragraphy.</p>
+            <hr>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-12">
+            
+            <ul class="nav nav-pills justify-content-center mb-4" id="pills-nav" role="tablist">
+
+              <li class="nav-item">
+                <a href="#nav-item-01" class="nav-link active" id="nav-pills-01" data-toggle="pill">Nav item #01</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#nav-item-02" class="nav-link" id="nav-pills-02" data-toggle="pill">Nav item #02</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#nav-item-03" class="nav-link" id="nav-pills-03" data-toggle="pill">Nav item #03</a>
+              </li>
+
+            </ul>
+
+            <div class="tab-content" id="nav-pills-content">
+              
+              <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+                
+                <div class="row">
+                  
+                  <div class="col-md-6 col-sm-12">
+                    
+                    <div class="embed-responsive embed-responsive-16by9 mb-3">
+                      <iframe src="https://www.youtube.com/embed/kAI0ZixbKX4" frameborder="1" class="embed-responsive-item"></iframe>
+                    </div>
+      
+                  </div>
+
+                  <div class="col-md-6 col-sm-12">
+                    
+                    <p class="lead">
+                      Scorpions are a German rock band formed in 1965 in Hanover by Rudolf Schenker. Since the band's inception, its musical style has ranged from hard rock to heavy metal.
+                    </p>
+                    <p>Origin: Hanover, Germany (1965)</p>
+                    <p>Members: Klaus Meine, Rudolf Schenker, Michael Schenker, MORE</p>
+                    <p>Genres: Hard rock, Heavy metal</p>              
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="tab-pane fade" id="nav-item-02" role="tabpanel">
+                
+                <div class="row">
+                  
+                  <div class="col-md-6 col-sm-12">
+                    
+                    <div class="embed-responsive embed-responsive-16by9 mb-3">
+                      <iframe src="https://www.youtube.com/embed/kAI0ZixbKX4" frameborder="1" class="embed-responsive-item"></iframe>
+                    </div>
+      
+                  </div>
+
+                  <div class="col-md-6 col-sm-12">
+                    
+                    <p class="lead">
+                      Scorpions are a German rock band formed in 1965 in Hanover by Rudolf Schenker. Since the band's inception, its musical style has ranged from hard rock to heavy metal. The lineup from 1978–1992 was the most successful incarnation of the group, and included Klaus Meine (vocals), Rudolf Schenker (rhythm guitar), Matthias Jabs (lead guitar), Francis Buchholz (bass guitar), and Herman Rarebell (drums). 
+                    </p>
+                    <p>Origin: Hanover, Germany (1965)</p>
+                    <p>Members: Klaus Meine, Rudolf Schenker, Michael Schenker, MORE</p>
+                    <p>Genres: Hard rock, Heavy metal</p>              
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="tab-pane fade" id="nav-item-03" role="tabpanel">
+                
+                <div class="row">
+                  
+                  <div class="col-md-6 col-sm-12">
+                    
+                    <div class="embed-responsive embed-responsive-16by9 mb-3">
+                      <iframe src="https://www.youtube.com/embed/kAI0ZixbKX4" frameborder="1" class="embed-responsive-item"></iframe>
+                    </div>
+      
+                  </div>
+
+                  <div class="col-md-6 col-sm-12">
+                    
+                    <p class="lead">
+                      Scorpions are a German rock band formed in 1965 in Hanover by Rudolf Schenker. Since the band's inception, its musical style has ranged from hard rock to heavy metal.[5][6] The lineup from 1978–1992 was the most successful incarnation of the group, and included Klaus Meine (vocals), Rudolf Schenker (rhythm guitar), Matthias Jabs (lead guitar), Francis Buchholz (bass guitar), and Herman Rarebell (drums). The band's only constant member has been Schenker, although Meine has been the lead singer for all of the band's studio albums, and Jabs has been a consistent member since 1979.
+                    </p>
+                    <p>Origin: Hanover, Germany (1965)</p>
+                    <p>Members: Klaus Meine, Rudolf Schenker, Michael Schenker, MORE</p>
+                    <p>Genres: Hard rock, Heavy metal</p>              
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+        
+        </div>
+      
+      </div>
+
+    </div>
+    <!-- END - JUMBOTRON CONTENT -->
+
+    <!-- BEGIN - FORM CONTENT -->
+    <div class="container">
+
+      <div class="row">
+        
+        <div class="col-12 text-center my-5">
+          
+          <h1 class="display-4"><i class="fa fa-paper-plane"></i> BT4 Form</h1>
+
+        </div>
+      
+      </div>
+
+      <div class="row justify-content-center mb-5">
+          
+        <div class="col-sm-12 col-md-10 col-lg-8">
+          
+          <form action="">
+            
+            <div class="form-row">
+              
+              <div class="form-group col-sm-6">
+                
+                <label for="firstname">Your first name</label>
+                <input type="text" name="firstname" class="form-control" placeholder="...">
+
+              </div>
+              
+              <div class="form-group col-sm-6">
+                
+                <label for="lastname">Your last name</label>
+                <input type="text" name="lasttname" class="form-control" placeholder="...">
+
+              </div>
+
+              <div class="form-group col-sm-6">
+                
+                <label for="email">E-mail</label>
+                <input type="email" name="email" class="form-control" placeholder="...">
+
+              </div>
+
+              <div class="form-group col-sm-6">
+                
+                <label for="phonenumber">Phone number</label>
+                <input type="phone" name="phonenumber" class="form-control" placeholder="...">
+
+              </div>
+
+            </div>
+
+            <div class="form-row">
+              
+              <div class="form-group col-sm-12">
+                
+                <label for="address">Address</label>
+                <input type="text" name="address" class="form-control" placeholder="...">
+
+              </div>
+
+            </div>
+
+            <div class="form-row">
+
+              <div class="form-group col-sm-6">
+                
+                <label for="city">City</label>
+                <input type="text" name="city" class="form-control" placeholder="...">
+
+              </div>
+
+              <div class="form-group col-sm-4">
+                
+                <label for="state">State</label>
+                <select name="state" id="state" class="form-control">
+                  <option value="0">Select...</option>
+                  <option value="1">...</option>
+                  <option value="2">...</option>
+                  <option value="3">...</option>
+                </select>
+
+              </div>
+
+              <div class="form-group col-sm-2">
+                
+                <label for="state">Code</label>
+                <input type="text" name="code" class="form-control" placeholder="...">
+
+              </div>
+
+            </div>
+
+            <div class="form-row">
+              
+              <div class="form-group col-sm-12">
+                
+                <div class="form-check">
+                  
+                  <div class="form-check-label">
+                    
+                    <input type="checkbox" class="form-check-input"> Agree terms
+
+                  </div>
+
+                </div>
+                
+                <a href="" class="btn btn-link font-italic badge badge-info" data-toggle="modal" data-target="#termsModal">Read terms</a>
+
+              </div>
+
+            </div>
+
+            <div class="row">
+              
+              <div class="col-sm-12 col-md-4">
+                
+                <button type="submit" class="btn btn-primary btn-block">Send data</button>
+
+              </div>
+
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+    
+    </div>
+    <!-- END - FORM CONTENT -->
+
+
+    <!-- BEGIN - CARD MODAL -->
+    <div class="modal fade" id="cardModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Called this modal</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa voluptas expedita necessitatibus, voluptatem asperiores deserunt repellendus recusandae natus itaque sapiente, commodi pariatur. Soluta ex, fugit commodi provident veritatis rerum culpa?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div><!-- END - CARD MODAL -->
+
+
+    <!-- BEGIN - TERMS MODAL -->
+    <div class="modal fade" id="termsModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Terms BT4 Web Site</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta porro odio numquam hic. Unde vel, delectus, illum perspiciatis alias quos voluptate voluptates sequi esse quas est laboriosam tenetur quidem dicta! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia reiciendis architecto fugit! Officiis vero, dicta debitis officia reprehenderit illum, tempora voluptatum, adipisci repellendus ratione delectus tempore earum nihil ea, molestiae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta porro odio numquam hic. Unde vel, delectus, illum perspiciatis alias quos voluptate voluptates sequi esse quas est laboriosam tenetur quidem dicta! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia reiciendis architecto fugit! Officiis vero, dicta debitis officia reprehenderit illum, tempora voluptatum, adipisci repellendus ratione delectus tempore earum nihil ea, molestiae.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta porro odio numquam hic. Unde vel, delectus, illum perspiciatis alias quos voluptate voluptates sequi esse quas est laboriosam tenetur quidem dicta! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia reiciendis architecto fugit! Officiis vero, dicta debitis officia reprehenderit illum, tempora voluptatum, adipisci repellendus ratione delectus tempore earum nihil ea, molestiae.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div><!-- END - TERMS MODAL -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
