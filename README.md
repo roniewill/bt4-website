@@ -5,7 +5,7 @@
 ### Sass
 [Link here...](https://sass-lang.com/)
 
-### Font
+### Font Awesome v4.7.0
 [Link here...](https://www.npmjs.com/package/font-awesome) 
 
 **Only** to study this framework
